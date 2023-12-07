@@ -1,14 +1,4 @@
 {
-  "name": "AoC 2023",
-  "build": {
-    "dockerfile": "../Dockerfile"
-  },
-  "workspaceFolder": "/usr/src/advent-of-code",
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "rust-lang.rust-analyzer"
-      ]
-    }
-  }
+	"name": "Advent of Rust",
+	"image": "mcr.microsoft.com/devcontainers/rust:1-1-bullseye"
 }
